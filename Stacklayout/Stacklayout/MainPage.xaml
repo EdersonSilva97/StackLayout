@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stacklayout.MainPage">
+
+    <StackLayout>
+        <Label>Testando 123 testando 321 555111452333</Label>
+         <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg"
+               HeightRequest="300" />
+        
+        <StackLayout Orientation="Horizontal">
+            <Label TextColor="blue">1.5M Like</Label>
+            <Label TextColor="blue">20k Comment</Label>
+            <Label TextColor="blue">10k Share</Label>
+            <Label TextColor="Blue">100k Download</Label>
+        </StackLayout>
+        
+        <BoxView HeightRequest="1" Color="LightGray"></BoxView>
+        <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg"
+               HeightRequest="300" />
+        
+        <StackLayout Orientation="Horizontal">
+            <Label TextColor="Blue">1.2M Like</Label>
+            <Label TextColor="Blue">21k Comment</Label>
+            <Label TextColor="Blue">5k Share</Label>
+            <Label TextColor="Blue">820k Download</Label>
+        </StackLayout>
+        <BoxView HeightRequest="1" Color="LightGray"></BoxView>
+        
+    </StackLayout>
+
+</ContentPage>
